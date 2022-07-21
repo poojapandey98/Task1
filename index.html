@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Works</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+
+
+</head>
+<body>
+    body { 
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .header {
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 20px 10px;
+      }
+      
+      .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px; 
+        line-height: 25px;
+        border-radius: 4px;
+      }
+      
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+      .header a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .header a.active {
+        background-color: dodgerblue;
+        color: white;
+      }
+      
+      .header-right {
+        float: right;
+      }
+      
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .header-right {
+          float: none;
+        }
+      }
+      .navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    font-size: 1.5rem;
+  }
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.extraclimg{
+  width: 50% !important;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+.footer {
+   position: relative;
+   left: 10;
+   bottom: 0;
+   width: 80%;
+   text-align: left;
+}
+  .footer2 {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 80%;
+
+   text-align: center;
+}
+.footer3{
+position: relative;
+   
+   bottom: 0;
+   width: 80%;
+   text-align: right;
+}
+
+
+
+
+      </style>
+      </head>
+      
+      
+      <div class="header">
+        <a href="#default" class="logo">M.</a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#servies">Servies</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <a href="#blog">Blog</a>
+         
+          
+        </div>
+      </div>
+      
+      <div style="text-align: center;
+      border: 3px solid green;">
+    
+    
+    
+        
+        <h1>Latest Works</h1>
+        <p>Excepteur sint occaecat cupidatat non proident,sunt in culpa qui official deserunt mollit
+            anim id est laborum.Sed ut prespiciaties unde ominis iste natus</p>
+        
+      </div>
+      <div class=" subheader">
+    
+        <ul class="navbar-list">
+            <a href="#" class="navbar-link">Branding Goles</a>
+            <a href="#" class="navbar-link">Photography</a>
+            <a href="#" class="navbar-link">True Perfection</a>
+            <a href="#" class="navbar-link">Web Design</a>
+        </ul>
+         
+          
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img src="../task1/images/2.jpg" alt="PHOTO">
+            <img src="../task1/images/9.jpg" alt="PHOTO">
+          
+          </div>
+          <div class="column">
+            <div>  <img class='extraclimg' src="../task1/images/4.jpg" alt="PHOTO"></div>
+            <div><img  class='extraclimg' src="../task1/images/5.jpg" alt="PHOTO"> </div>
+            <div>  <img  class='extraclimg' src="../task1/images/3.jpg" alt="PHOTO"> </div>
+           
+            
+            
+          
+          </div>
+          <div class="column">
+            <img  class='extraclimg' src="../task1/images/1.jpg" alt="PHOTO">
+           
+            <img  class='extraclimg' src="../task1/images/6.jpg" alt="PHOTO">
+            <img  class='extraclimg' src="../task1/images/7.jpg" alt="PHOTO">
+           
+          </div>
+          </div>
+          <div style="text-align: center;
+          border: 3px ;">
+          
+          <h1>Work experiences</h1>
+        <p>Excepteur sint occaecat cupidatat non proident,sunt in culpa qui official deserunt mollit
+            anim id est laborum.Sed ut prespiciaties unde ominis iste natus</p>
+        </div>
+        <div class="row" style="background: aliceblue;">
+          <div class="column">
+            <h2>Ui/Ux Designer</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> 
+            <p>Sed do elusam temp incidifuct ut labor</p>
+          
+          </div>
+          <div class="column">
+            <h2>Product Designer</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> Sed do elusam temp incidifuct ut labor</p>
+           
+            
+            
+          
+          </div>
+          <div class="column">
+            <h2>Graphic Designer</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p> Sed do elusam temp incidifuct ut labor</p>
+           
+          </div>
+          </div>
+        
+        
+      </body>
+      </html>
+      
+</body>
+</html>
